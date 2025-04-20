@@ -84,6 +84,11 @@ body {
   }
 }
 
+#header-text-span {
+-webkit-text-stroke:1px var(--secondary);
+color: transparent;
+}
+
 /* services */
 
 .top-header-hr {

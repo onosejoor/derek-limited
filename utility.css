@@ -1,0 +1,208 @@
+button {
+  background-color: transparent;
+  border-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-5 {
+  gap: 20px;
+}
+
+.gap-10 {
+  gap: 50px;
+}
+
+.gap-1 {
+  gap: 10px;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+/* texts */
+
+.text-center {
+  text-align: center;
+}
+
+.text-sm {
+  font-size: 14px;
+}
+
+.text-lg {
+  font-size: 18px;
+}
+
+.text-base {
+  font-size: 16px;
+}
+
+.text-xl {
+  font-size: 20px;
+}
+
+.text-2xl {
+  font-size: 24px;
+}
+
+/* margin */
+
+.mx-auto {
+  margin-inline: auto;
+}
+.my-5 {
+  margin-block: 20px;
+}
+
+/* width */
+
+.w-fit {
+  width: fit-content;
+}
+
+/* border-radius */
+
+.rounded {
+  border-radius: 10px;
+}
+
+.rounded-full {
+  border-radius: 1000px;
+}
+
+.rounded-sm {
+  border-radius: 5px;
+}
+
+.rounded-md {
+  border-radius: 10px;
+}
+
+/* padding */
+
+.p-10 {
+  padding: 50px;
+}
+
+.py-10 {
+  padding-block: 50px;
+}
+
+.p-5 {
+  padding: 20px;
+}
+
+.px-5 {
+  padding-inline: 10px;
+}
+
+.px-10 {
+  padding-inline: 50px;
+}
+
+/* color */
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.bg-background {
+  background-color: var(--background-secondary);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
+.text-secondary {
+  color: var(--secondary);
+}
+
+.border-secondary {
+  border-color: var(--secondary);
+}
+
+.grid {
+  display: grid;
+}
+
+/* opacity */
+.opacity-70 {
+  opacity: 70%;
+}
+
+/* height */
+
+.h-fit {
+  height: fit-content;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/* width */
+
+.w-50 {
+  width: 50%;
+}
+
+
+/* animation */
+
+.animate-float {
+  animation: float 2s infinite linear;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+}
